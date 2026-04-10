@@ -1,0 +1,9 @@
+gradio>=4.26
+open-clip-torch>=2.24
+torch>=2.2
+Pillow>=10.3
+chromadb>=0.5
+openai>=1.25
+pydantic>=2.7
+python-dotenv>=1.0
+numpy>=1.26
