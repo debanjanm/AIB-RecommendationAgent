@@ -1,0 +1,302 @@
+[
+  {
+    "id": "foot_001",
+    "name": "Brooks Adrenaline GTS 23",
+    "description": "The ultimate stability running shoe for overpronators. GuideRails holistic support system keeps excess movement in check. DNA LOFT v3 cushioning provides a plush, smooth feel mile after mile.",
+    "category": "footwear",
+    "price": 129.99,
+    "brand": "Brooks",
+    "tags": ["running", "stability", "flat-feet", "overpronation", "cushioning"],
+    "image_filename": "foot_001.jpg"
+  },
+  {
+    "id": "foot_002",
+    "name": "Nike Air Max 270",
+    "description": "Inspired by two icons of Air: the Air Max 180 and Air Max 93. The Nike Air Max 270 delivers a super-soft ride feel and all-day comfort with the largest Air unit to date.",
+    "category": "footwear",
+    "price": 150.00,
+    "brand": "Nike",
+    "tags": ["lifestyle", "casual", "air-cushion", "streetwear", "comfort"],
+    "image_filename": "foot_002.jpg"
+  },
+  {
+    "id": "foot_003",
+    "name": "Timberland 6-Inch Premium Waterproof Boot",
+    "description": "Classic waterproof leather boot with seam-sealed construction. Features a rustproof speed-lace hardware system and a lug outsole for traction on all terrain.",
+    "category": "footwear",
+    "price": 198.00,
+    "brand": "Timberland",
+    "tags": ["boots", "waterproof", "outdoor", "hiking", "leather", "winter"],
+    "image_filename": "foot_003.jpg"
+  },
+  {
+    "id": "foot_004",
+    "name": "Birkenstock Arizona Soft Footbed",
+    "description": "The iconic Arizona two-strap sandal with a soft contoured footbed for maximum comfort. Adjustable buckle straps allow a custom fit. Perfect for warm-weather walking.",
+    "category": "footwear",
+    "price": 99.95,
+    "brand": "Birkenstock",
+    "tags": ["sandals", "comfort", "casual", "summer", "adjustable", "arch-support"],
+    "image_filename": "foot_004.jpg"
+  },
+  {
+    "id": "foot_005",
+    "name": "Adidas Ultraboost 23",
+    "description": "Engineered with Boost midsole technology for incredible energy return. Primeknit+ upper adapts to every step. A high-performance running shoe designed for road and track.",
+    "category": "footwear",
+    "price": 190.00,
+    "brand": "Adidas",
+    "tags": ["running", "boost", "performance", "knit", "road-running"],
+    "image_filename": "foot_005.jpg"
+  },
+  {
+    "id": "foot_006",
+    "name": "Converse Chuck Taylor All Star",
+    "description": "The original basketball shoe turned cultural icon. Canvas upper, rubber outsole, and the unmistakable ankle patch. A timeless silhouette that goes with everything.",
+    "category": "footwear",
+    "price": 60.00,
+    "brand": "Converse",
+    "tags": ["classic", "canvas", "casual", "streetwear", "low-top", "iconic"],
+    "image_filename": "foot_006.jpg"
+  },
+  {
+    "id": "outer_001",
+    "name": "Patagonia Nano Puff Jacket",
+    "description": "Windproof and water-resistant PrimaLoft Gold Insulation Eco jacket. Incredibly lightweight and compressible. Perfect for layering or wearing on its own in cold weather.",
+    "category": "outerwear",
+    "price": 249.00,
+    "brand": "Patagonia",
+    "tags": ["insulated", "lightweight", "packable", "windproof", "water-resistant", "outdoor"],
+    "image_filename": "outer_001.jpg"
+  },
+  {
+    "id": "outer_002",
+    "name": "Canada Goose Expedition Parka",
+    "description": "The most recognizable cold-weather parka in the world. Designed for extreme Arctic expeditions. Features coyote fur trim hood, recessed knit storm cuffs, and 625-fill power duck down.",
+    "category": "outerwear",
+    "price": 1095.00,
+    "brand": "Canada Goose",
+    "tags": ["winter", "down", "extreme-cold", "fur-trim", "luxury", "parka"],
+    "image_filename": "outer_002.jpg"
+  },
+  {
+    "id": "outer_003",
+    "name": "Levi's Sherpa Trucker Jacket",
+    "description": "A modern update to the classic trucker jacket. Cozy sherpa lining throughout provides warmth. Chest and side welt pockets. Perfect for the transitional seasons.",
+    "category": "outerwear",
+    "price": 89.50,
+    "brand": "Levi's",
+    "tags": ["trucker", "sherpa", "warm", "casual", "denim-style", "fall"],
+    "image_filename": "outer_003.jpg"
+  },
+  {
+    "id": "outer_004",
+    "name": "Arc'teryx Beta AR Jacket",
+    "description": "Hardshell jacket built for sustained activity in variable alpine conditions. Gore-Tex Pro fabric delivers maximum protection against rain and wind while remaining breathable.",
+    "category": "outerwear",
+    "price": 749.00,
+    "brand": "Arc'teryx",
+    "tags": ["hardshell", "gore-tex", "alpine", "waterproof", "technical", "hiking"],
+    "image_filename": "outer_004.jpg"
+  },
+  {
+    "id": "outer_005",
+    "name": "Zara Oversized Wool Blend Coat",
+    "description": "Sophisticated oversized coat in a premium wool blend. Lapel collar, long sleeves, and welt pockets. Relaxed silhouette for an effortlessly chic look.",
+    "category": "outerwear",
+    "price": 149.00,
+    "brand": "Zara",
+    "tags": ["wool", "oversized", "elegant", "casual-chic", "fall-winter", "coat"],
+    "image_filename": "outer_005.jpg"
+  },
+  {
+    "id": "outer_006",
+    "name": "North Face Thermoball Eco Vest",
+    "description": "Lightweight insulated vest with ThermoBall Eco insulation made from 100% recycled materials. Packable and warm. Great as a mid-layer or standalone piece.",
+    "category": "outerwear",
+    "price": 119.00,
+    "brand": "The North Face",
+    "tags": ["vest", "insulated", "eco", "packable", "layering", "outdoor"],
+    "image_filename": "outer_006.jpg"
+  },
+  {
+    "id": "bag_001",
+    "name": "Herschel Little America Backpack",
+    "description": "A modern classic with a heritage look. Features laptop sleeve, interior organizer pocket, and signature striped fabric lining. Fits up to 15-inch laptops. 25L capacity.",
+    "category": "bags",
+    "price": 89.99,
+    "brand": "Herschel",
+    "tags": ["backpack", "laptop", "everyday", "classic", "school", "travel"],
+    "image_filename": "bag_001.jpg"
+  },
+  {
+    "id": "bag_002",
+    "name": "Louis Vuitton Neverfull MM",
+    "description": "The iconic Louis Vuitton tote in Monogram canvas. Spacious interior with removable pouch. Side laces allow flexible bag volume. Timeless everyday luxury.",
+    "category": "bags",
+    "price": 1700.00,
+    "brand": "Louis Vuitton",
+    "tags": ["tote", "luxury", "monogram", "canvas", "spacious", "iconic"],
+    "image_filename": "bag_002.jpg"
+  },
+  {
+    "id": "bag_003",
+    "name": "Fjallraven Kanken Classic",
+    "description": "The Swedish backpack born in 1978 for school children that became a global lifestyle icon. Durable Vinylon F fabric, iconic color combinations. Perfect for daily commuting.",
+    "category": "bags",
+    "price": 80.00,
+    "brand": "Fjallraven",
+    "tags": ["backpack", "classic", "school", "Swedish", "durable", "colorful"],
+    "image_filename": "bag_003.jpg"
+  },
+  {
+    "id": "bag_004",
+    "name": "Tumi Alpha 3 Brief",
+    "description": "Professional leather briefcase with innovative add-a-bag sleeve. FXT ballistic nylon construction for exceptional durability. Fits 15-inch laptop. Ideal for business travel.",
+    "category": "bags",
+    "price": 595.00,
+    "brand": "Tumi",
+    "tags": ["briefcase", "business", "leather", "travel", "laptop", "professional"],
+    "image_filename": "bag_004.jpg"
+  },
+  {
+    "id": "bag_005",
+    "name": "Everlane Day Market Tote",
+    "description": "A structured tote made from 100% recycled plastic bottles. Reinforced handles and a zippered interior pocket. Goes from grocery run to beach day effortlessly.",
+    "category": "bags",
+    "price": 45.00,
+    "brand": "Everlane",
+    "tags": ["tote", "eco-friendly", "recycled", "everyday", "market", "structured"],
+    "image_filename": "bag_005.jpg"
+  },
+  {
+    "id": "bag_006",
+    "name": "Gucci Dionysus Small Shoulder Bag",
+    "description": "Compact shoulder bag featuring the iconic Dionysus closure inspired by the Greek god. Suede lining with internal zip pocket. Removable chain strap for versatile styling.",
+    "category": "bags",
+    "price": 2300.00,
+    "brand": "Gucci",
+    "tags": ["shoulder-bag", "luxury", "crossbody", "chain-strap", "suede", "evening"],
+    "image_filename": "bag_006.jpg"
+  },
+  {
+    "id": "elec_001",
+    "name": "Sony WH-1000XM5 Headphones",
+    "description": "Industry-leading noise canceling with two processors and eight microphones. Up to 30-hour battery with quick charge. Crystal clear hands-free calling. The benchmark in wireless headphones.",
+    "category": "electronics",
+    "price": 349.99,
+    "brand": "Sony",
+    "tags": ["headphones", "noise-canceling", "wireless", "bluetooth", "audiophile"],
+    "image_filename": "elec_001.jpg"
+  },
+  {
+    "id": "elec_002",
+    "name": "Apple AirPods Pro (2nd Gen)",
+    "description": "Active Noise Cancellation, Transparency mode, and Personalized Spatial Audio. Adaptive Audio automatically adjusts between modes. Up to 6 hours listening time (30 hours with case).",
+    "category": "electronics",
+    "price": 249.00,
+    "brand": "Apple",
+    "tags": ["earbuds", "wireless", "noise-canceling", "ANC", "spatial-audio", "iOS"],
+    "image_filename": "elec_002.jpg"
+  },
+  {
+    "id": "elec_003",
+    "name": "Keychron K2 Wireless Mechanical Keyboard",
+    "description": "Compact 75% layout with Bluetooth 5.1 and USB-C wired mode. Hot-swappable switches, RGB backlight, and compatible with Mac and Windows. Built on a sturdy aluminum frame.",
+    "category": "electronics",
+    "price": 99.99,
+    "brand": "Keychron",
+    "tags": ["keyboard", "mechanical", "wireless", "compact", "RGB", "hot-swap", "Mac"],
+    "image_filename": "elec_003.jpg"
+  },
+  {
+    "id": "elec_004",
+    "name": "Logitech MX Master 3S Mouse",
+    "description": "The most advanced mouse for creators and engineers. 8K DPI sensor works on any surface including glass. MagSpeed electromagnetic scroll wheel. Connects to up to 3 devices simultaneously.",
+    "category": "electronics",
+    "price": 99.99,
+    "brand": "Logitech",
+    "tags": ["mouse", "wireless", "ergonomic", "productivity", "multi-device", "creator"],
+    "image_filename": "elec_004.jpg"
+  },
+  {
+    "id": "elec_005",
+    "name": "Samsung Galaxy Tab S9 Ultra",
+    "description": "14.6-inch Dynamic AMOLED 2X display with 120Hz. IP68 water resistance. S Pen included for creativity and productivity. Powerful Snapdragon 8 Gen 2 for AI-enhanced performance.",
+    "category": "electronics",
+    "price": 1099.99,
+    "brand": "Samsung",
+    "tags": ["tablet", "AMOLED", "stylus", "Android", "productivity", "drawing"],
+    "image_filename": "elec_005.jpg"
+  },
+  {
+    "id": "elec_006",
+    "name": "Bose SoundLink Flex Bluetooth Speaker",
+    "description": "Waterproof, dustproof portable Bluetooth speaker. PositionIQ technology optimizes sound whether upright or on its side. 12 hours battery. Built to withstand the elements.",
+    "category": "electronics",
+    "price": 149.00,
+    "brand": "Bose",
+    "tags": ["speaker", "bluetooth", "waterproof", "portable", "outdoor", "travel"],
+    "image_filename": "elec_006.jpg"
+  },
+  {
+    "id": "home_001",
+    "name": "IKEA RANARP Floor Lamp",
+    "description": "Industrial-style floor lamp with adjustable arm and shade. Creates a cozy, directed light ideal for reading nooks. E26 bulb socket. Powder-coated metal in off-white.",
+    "category": "home",
+    "price": 59.99,
+    "brand": "IKEA",
+    "tags": ["lamp", "floor-lamp", "industrial", "reading", "adjustable", "metal"],
+    "image_filename": "home_001.jpg"
+  },
+  {
+    "id": "home_002",
+    "name": "Monstera Deliciosa Plant",
+    "description": "The iconic Swiss cheese plant with dramatic split leaves. A beloved houseplant that thrives in bright indirect light. Ships in a 6-inch nursery pot. Low-maintenance tropical beauty.",
+    "category": "home",
+    "price": 34.99,
+    "brand": "The Sill",
+    "tags": ["plant", "tropical", "indoor", "low-maintenance", "statement-plant", "monstera"],
+    "image_filename": "home_002.jpg"
+  },
+  {
+    "id": "home_003",
+    "name": "Fellow Stagg EKG Kettle",
+    "description": "Variable temperature electric kettle with precision pour spout. Perfect for pour-over coffee and tea. Hold mode maintains temperature for 60 minutes. Minimalist matte black design.",
+    "category": "home",
+    "price": 165.00,
+    "brand": "Fellow",
+    "tags": ["kettle", "coffee", "pour-over", "kitchen", "minimalist", "electric"],
+    "image_filename": "home_003.jpg"
+  },
+  {
+    "id": "home_004",
+    "name": "Brooklinen Luxe Core Sheet Set",
+    "description": "480-thread count long-staple cotton sheets. Percale weave for a crisp, cool feel. Includes flat sheet, fitted sheet, and two pillowcases. Machine washable. OEKO-TEX certified.",
+    "category": "home",
+    "price": 149.00,
+    "brand": "Brooklinen",
+    "tags": ["sheets", "cotton", "bedding", "luxury", "percale", "breathable"],
+    "image_filename": "home_004.jpg"
+  },
+  {
+    "id": "home_005",
+    "name": "Aarke Carbonator III",
+    "description": "Stainless steel sparkling water maker with a sleek Scandinavian design. Compatible with standard 60L CO2 cylinders. Makes up to 60L of sparkling water per cylinder. BPA-free.",
+    "category": "home",
+    "price": 199.99,
+    "brand": "Aarke",
+    "tags": ["sparkling-water", "kitchen", "sustainable", "soda-maker", "stainless-steel"],
+    "image_filename": "home_005.jpg"
+  },
+  {
+    "id": "home_006",
+    "name": "Aesop Resurrection Aromatique Hand Wash",
+    "description": "A botanical hand wash with a refreshing blend of Mandarin Rind, Rosemary Leaf, and Cedar Atlas. Formulated to cleanse without stripping natural oils. Suitable for frequent use.",
+    "category": "home",
+    "price": 38.00,
+    "brand": "Aesop",
+    "tags": ["hand-wash", "botanical", "luxury", "bathroom", "fragrant", "skincare"],
+    "image_filename": "home_006.jpg"
+  }
+]

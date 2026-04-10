@@ -1,3 +1,9 @@
+# Project-specific
+.env
+data/chroma_db/
+data/sample_products/images/
+__pycache__/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
