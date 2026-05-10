@@ -1,8 +1,13 @@
 """
 Seed ChromaDB with sample products from products.json.
 Idempotent: skips products that already exist.
-Run: python utils/seed_data.py
+Pass --reset to wipe ChromaDB first (useful after loading a new dataset).
+
+Run:
+  python utils/seed_data.py           # incremental (skip existing)
+  python utils/seed_data.py --reset   # wipe + re-seed everything
 """
+import argparse
 import json
 import os
 import sys
@@ -31,6 +36,14 @@ CHROMA_DIR = os.environ.get("CHROMA_PERSIST_DIR", "./data/chroma_db")
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--reset",
+        action="store_true",
+        help="Wipe the ChromaDB collection before seeding (use after loading a new dataset)",
+    )
+    args = parser.parse_args()
+
     print("Loading CLIP model (this may take a moment on first run)...")
     embedder = get_embedding_service(
         model_name=os.environ.get("CLIP_MODEL_NAME", "ViT-B-32"),
@@ -39,18 +52,32 @@ def main():
 
     store = VectorStore(persist_dir=CHROMA_DIR)
 
+    # ── Optional reset ────────────────────────────────────────────────────────
+    if args.reset:
+        existing = store.count()
+        print(f"--reset flag set: deleting {existing} existing products from ChromaDB...")
+        store.client.delete_collection("products")
+        # Re-create the collection after deletion
+        store.collection = store.client.get_or_create_collection(
+            name="products",
+            metadata={"hnsw:space": "cosine"},
+        )
+        print("  Collection cleared.")
+
     with open(PRODUCTS_JSON, "r") as f:
         raw_products = json.load(f)
 
-    print(f"Found {len(raw_products)} products in catalog.")
+    total_in_catalog = len(raw_products)
+    print(f"\nFound {total_in_catalog} products in catalog.")
+    print(f"Seeding into ChromaDB at: {CHROMA_DIR}\n")
     seeded = 0
     skipped = 0
+    errors = 0
 
-    for raw in raw_products:
+    for i, raw in enumerate(raw_products, 1):
         product = Product(**raw)
 
         if store.product_exists(product.id):
-            print(f"  [skip] {product.id}: {product.name}")
             skipped += 1
             continue
 
@@ -65,15 +92,25 @@ def main():
             )
             image = load_image(image_path)
 
-        # Generate combined embedding
-        embedding = embedder.embed_product(text=product.text_blob, image=image)
-
-        store.add_product(product, embedding)
-        print(f"  [added] {product.id}: {product.name}")
-        seeded += 1
+        try:
+            # Generate combined embedding
+            embedding = embedder.embed_product(text=product.text_blob, image=image)
+            store.add_product(product, embedding)
+            seeded += 1
+            if seeded % 50 == 0:
+                print(f"  [{i}/{total_in_catalog}] {seeded} seeded so far...")
+        except Exception as e:
+            print(f"  [error] {product.id}: {e}")
+            errors += 1
 
     total = store.count()
-    print(f"\nDone. Seeded: {seeded}, Skipped: {skipped}. Total in ChromaDB: {total}")
+    print(f"\n{'='*50}")
+    print(f"Seeded : {seeded}")
+    print(f"Skipped: {skipped}")
+    print(f"Errors : {errors}")
+    print(f"Total in ChromaDB: {total}")
+    print(f"{'='*50}")
+    print("\nRun: python app.py  →  http://localhost:7860")
 
 
 if __name__ == "__main__":

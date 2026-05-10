@@ -15,7 +15,7 @@ Always respond with valid JSON only. No markdown, no explanation."""
 EXPANSION_USER_TEMPLATE = """Analyze this product search query and return a JSON object with exactly these keys:
 - "expanded_query": A richer, more descriptive search phrase including synonyms, attributes, and style descriptors. Keep under 50 words.
 - "extracted_intent": {{
-    "category": One of [footwear, outerwear, bags, electronics, home, unknown],
+    "category": One of [footwear, outerwear, bags, electronics, home, apparel, accessories, personal_care, sporting_goods, unknown],
     "key_attributes": List of product attributes mentioned or implied (max 5),
     "style_keywords": List of aesthetic/style descriptors (max 3),
     "price_sensitivity": "budget" | "mid-range" | "premium" | "unknown"
