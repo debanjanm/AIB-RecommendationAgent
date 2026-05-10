@@ -209,6 +209,14 @@ with gr.Blocks(css=CSS, title="Product Recommendation Agent") as demo:
               3. ChromaDB retrieves top-20 nearest products<br>
               4. GPT-4o reranks by semantic relevance &amp; explains matches
             </div>
+            <div style="margin-top:12px;padding:12px;background:#fefce8;border-radius:8px;font-size:12px;color:#713f12;">
+              <strong>Try searching:</strong><br>
+              🥿 "blue casual shoes for men"<br>
+              👗 "floral summer dress for women"<br>
+              🎒 "compact backpack for travel"<br>
+              🕶️ "stylish sunglasses for outdoor use"<br>
+              💄 "red lipstick for evening"
+            </div>
             """)
 
         with gr.Column(scale=3):

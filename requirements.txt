@@ -7,3 +7,6 @@ openai>=1.25
 pydantic>=2.7
 python-dotenv>=1.0
 numpy>=1.26
+datasets>=2.19
+pandas>=2.2
+tqdm>=4.66
